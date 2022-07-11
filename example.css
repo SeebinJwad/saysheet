@@ -1,4 +1,5 @@
-
+/*solution is I need to recreate the logo as full border like someone drew it and didnt fill it
+in otherwise the border of app covers page making it look falsely folded in the corner*/
 .container {
   display: flex;
   align-items: center;
