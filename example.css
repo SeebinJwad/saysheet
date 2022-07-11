@@ -1,0 +1,80 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.half-circle {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius:50%;
+    border: 50px solid gray;
+
+}
+.cover1 {
+  background: white;
+  height:450px;
+  width:150px;
+  bottom:150px;
+  position:relative;
+  left:150px;
+}
+.cover2 {
+  background: white;
+  height:150px;
+  width:450px;
+  bottom:600px;
+  position:relative;
+  right:150px;
+}
+.quarter{
+	  width: 150px;
+    height: 150px;
+    top: 100px;
+    position:absolute;
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:100%;
+    background: white;
+    border: 150px solid #85E97B;
+}
+.card {
+  height: 200px;
+  width: 215px;
+  position: absolute;
+  top: 150px;
+  border-radius: 5%;
+  background: red;
+}
+.card-border {
+  height: 73px;
+  width: 83px;
+  position: absolute;
+  top: 395px;
+  left:371px;
+  border-radius: 15%;
+  transform: rotate(-35deg);
+  border: 5px solid #85E97B; /* #85E97B; */
+}
+.card-white {
+  height: 80px;
+  width: 80px;
+  transform: rotate(25deg);
+  background: white;
+  border-radius: 0%;
+  position:absolute;
+  top:440px;
+  right:305px;
+}
+.final-border {
+  background:transparent;
+  height:260px;
+  width:260px;
+  border: 20px solid black;
+  top:230px;
+  left:182px;
+  border-radius:10%;
+  position:absolute;
+}
